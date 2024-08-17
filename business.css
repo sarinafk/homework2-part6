@@ -1,0 +1,72 @@
+body {  
+    font-family: 'Arial', sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: #f9f9f9;  
+}  
+
+header {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 20px;  
+    background-color: #ffffff;  
+}  
+
+h1 {  
+    color: #333;  
+}  
+
+nav ul {  
+    list-style: none;  
+    display: flex;  
+    gap: 20px;  
+}  
+
+nav a {  
+    text-decoration: none;  
+    color: #007BFF;  
+}  
+
+.hero {  
+    text-align: center;  
+    padding: 50px 20px;  
+}  
+
+.hero h2 {  
+    font-size: 2.5em;  
+    color: #333;  
+}  
+
+.hero p {  
+    color: #666;  
+    margin: 20px 0;  
+}  
+
+button {  
+    padding: 10px 20px;  
+    background-color: #007BFF;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+button:hover {  
+    background-color: #0056b3;  
+}  
+
+.brands {  
+    text-align: center;  
+    padding: 40px 20px;  
+}  
+
+.brand-logos {  
+    display: flex;  
+    justify-content: center;  
+    gap: 20px;  
+}  
+
+.brand-logos img {  
+    height: 50px;  
+}
